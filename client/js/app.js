@@ -1,8 +1,8 @@
 var apiVersion = 'v30.0',
-    clientId = 'YOUR_CONSUMER_KEY_HERE',
+    clientId = '3MVG9Y6d_Btp4xp6dW847.b0lk9KggFjgPG7vy4ccVfXA26JYirsK0gJy3k1RqN9ggaP2mYgeXzv5qkLdxezK',
     loginUrl = 'https://login.salesforce.com/',
-    redirectURI = "http://localhost:3000/oauthcallback.html",
-    proxyURL = 'http://localhost:3000/proxy/',
+    redirectURI = "https://evening-reaches-6876.herokuapp.com/oauthcallback.html",
+    proxyURL = 'https://evening-reaches-6876.herokuapp.com/proxy/',
     client = new forcetk.Client(clientId, loginUrl, proxyURL);
 
 function login() {
